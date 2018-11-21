@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/wehao/.android/build-cache/bd1f5fe7b457c98e1a898dfc5b4ec830f56c4767/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/wehao/AndroidStudioProjects/MediaCodecDemo/MediaCodecDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d46267cb774ba1886a401c75af6d32801cd6f9cf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wehao/AndroidStudioProjects/MediaCodecDemo/MediaCodecDemo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7b746d5004fa7b115d86a655fbfa6ab7f1866616">
+        <dex dex="/home/wehao/AndroidStudioProjects/MediaCodecDemo/MediaCodecDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8e209e86f90f4da784a3cbef89e910b22e06ec30/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wehao/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/home/wehao/AndroidStudioProjects/MediaCodecDemo/MediaCodecDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.0.0_a4f043df62bb2024b6e9bed504ebb14162ecd7c8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wehao/.android/build-cache/42bdf1c75267dfcd10ea63b55aad03d59022533c/output/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/home/wehao/AndroidStudioProjects/MediaCodecDemo/MediaCodecDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_5fc0e5ebcabd53157a3f49cc54700b9e499c457c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wehao/.android/build-cache/42bdf1c75267dfcd10ea63b55aad03d59022533c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/home/wehao/AndroidStudioProjects/MediaCodecDemo/MediaCodecDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ac534bb7b5372b211b8b4f4a9747c70d32c383e9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wehao/.android/build-cache/9decda48d5b8e115b319f24369ea722b7c9522de/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="/home/wehao/AndroidStudioProjects/MediaCodecDemo/MediaCodecDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a607136d8f3da19048cfd791040492516273b8f3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wehao/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/wehao/AndroidStudioProjects/MediaCodecDemo/MediaCodecDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_6d80d48f4cb106eda976db7ca2e00c3d6bde8b84/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wehao/AndroidStudioProjects/MediaCodecDemo/MediaCodecDemo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/wehao/AndroidStudioProjects/MediaCodecDemo/MediaCodecDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_46c80ecc8df1db307d2847b42570d70ae01e6a32/classes.dex" />
+    </item>
+
+</items>

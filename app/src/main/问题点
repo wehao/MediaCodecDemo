@@ -1,0 +1,30 @@
+1 部分机型MediaCodec.configure直接crash
+        MediaFormat.createVideoFormat的初始化超过该机型 硬解码最大配置分辨率(Max)
+        fix:要把初始化的分辨率值设置小一点(是不会影响高分辨率解码的)
+            note1:当该机型Max低于当前解码分辨率（非初始化分辨率）
+                绿屏 or MediaCodec.dequeueInputBuffer一直IllegalStateException
+            note2:如何获取Max 使用adb指令获取系统配置xml文件
+        adb pull /system/etc/media_codecs.xml /Users/jiajia/Desktop/1
+        adb pull /data/anr/traces.txt /Users/jiajia/Desktop/1.txt
+
+2 部分机型MediaCodec.dequeueInputBuffer 一直IllegalStateException
+        fix:后面的timeoutUs参数不能写死，可以填入系统时间
+
+3 部分机型MediaCodec.dequeueOutputBuffer报IllegalStateException之后
+    MediaCodec.dequeueInputBuffer一直报IllegalStateException（timeoutUs参数已填入系统时间）
+        该机型硬解码最大配置分辨率低于当前解码分辨率
+
+4 部分机型卡死在MediaCodec.dequeueOutputBuffer
+        fix:后面的timeoutUs参数不能跟dequeueInputBuffer的timeoutUs参数一样，写0即可
+
+5 部分机型卡死在切换分辨率后卡死在MediaCodec.dequeueInputBuffer
+        fix:视频流的分辨率突然大于当前视频的分辨率
+
+
+    机型              video/avc(H264)   video/mp4v-es(mp4)   video/hevc(h265)
+中兴Q302C_4.4.4          1920x1080          1920x1080           1920x1080
+google6p_7.1.1          4096x2160           1920x1088           4096x2160
+小米4_6.0.1              4096x2160          1920x1088           4096x2160
+魅族m3note_5.1           1920x1088          1920x1088           1920x1088
+SonyE6553_6.0.1         4096x2160           1920x1088           4096x2160
+htcA9u_6.0.1            1920x1088           1920x1088           1920x1088
